@@ -39,6 +39,12 @@ func main() {
 	log.Fatal(http.ListenAndServe(":7000", nil))
 }
 
+<<<<<<< HEAD
 func sum (a, b int) int {
   return a + b
+=======
+func sum(a, b int) int {
+	t := a + b
+	return t
+>>>>>>> feature
 }
