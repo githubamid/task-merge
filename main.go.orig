@@ -40,5 +40,10 @@ func main() {
 }
 
 func sum (a, b int) int {
+<<<<<<< HEAD
+  t := b + a
+  return t
+=======
   return a + b
+>>>>>>> 0b928ba
 }
